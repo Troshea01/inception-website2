@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Prism Effect Slider | Demo 1</title>
+		<meta name="description" content="Prism slider using canvas globalCompositeOperation" />
+		<meta name="keywords" content="prism, images, globalCompositeOperation, canvas, demo, web design, slider" />
+		<meta name="author" content="Claudio Calautti for Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normal.css" />
+		<link rel="stylesheet" type="text/css" href="css/demos.css" />
+		<link rel="stylesheet" type="text/css" href="css/components.css" />
+		<!--[if IE]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body class="demo-1">
+		<div class="container">
+			<header class="codrops-header">
+				<h1>GALLERY</h1>
+				<nav class="codrops-demos">
+					
+					<a class="demo demo--current" href="index.html"><span>HOME</span></a>
+					<a class="demo" href="index2.html"><span>ABOUT</span></a>
+					<a class="demo" href="index8.html"><span>CAST</span></a>
+					<a class="demo" href="index4.html"><span>TRAILER</span></a>
+					<a class="demo" href="index5.html"><span>GALLERY</span></a>
+				</nav>
+			</header>
+			<div class="content">
+				<!-- Start Demo -->
+
+				<div class="cache">
+					<!-- masks -->
+					<img src="img/masks/prism-a.svg">
+					<img src="img/masks/prism-b.svg">
+					<img src="img/masks/prism-c.svg">
+					<!-- photos -->
+					<img src="img/movie-poster.png">
+					<img src="img/spinner2.jpg">
+					<img src="img/dicaprio-illustration.png">
+					<img src="img/inception-illustration2.jpg">
+				</div>
+
+				<div class="wrapper">
+					<div class="prism-slider">
+						<ul class="navigation"></ul>
+					</div>
+
+					<div class="copy">
+						<article>
+							<h2>BOX OFFICE</h2>
+							<p>
+									Dom Cobb (Leonardo DiCaprio) is a thief with the rare ability to enter people's dreams and steal their secrets from their subconscious. His skill has made him a hot commodity in the world of corporate espionage but has also cost him everything he loves. Cobb gets a chance at redemption when he is offered a seemingly impossible task: Plant an idea in someone's mind. If he succeeds, it will be the perfect crime, but a dangerous enemy anticipates Cobb's every move.
+									<br><br>
+Release date: 30 July 2010 (South Africa)<br>
+Director: Christopher Nolan<br>
+Budget: 160 million USD<br>
+Box office: 825.5 million USD<br>
+Awards: Academy Award for Best Visual Effects, MORE
+							</p>
+
+						</article>
+					</div>
+				</div>
+
+				<!-- End Demo -->
+			</div>
+			<!-- Related demos -->
+			<section class="content content--related">
+				<p>CHANGE SLIDES</p>
+				<nav class="codrops-demos">
+					<a class="current-demo" href="index5.html">The Box office</a>
+					<a href="index6.html">The Dream</a>
+					<a href="index7.html">Landscape</a>
+				</nav>
+			</section>
+		</div><!-- /container -->
+
+		<!-- JS -->
+		<script src="js/utils/rAF.js"></script>
+		<script src="js/utils/easing.js"></script>
+		<script src="js/PrismSlider.js"></script>
+		<script src="js/slideshow1.js"></script>
+	</body>
+</html>

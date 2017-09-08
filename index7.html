@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Prism Effect Slider | Demo 3</title>
+		<meta name="description" content="Prism slider using canvas globalCompositeOperation" />
+		<meta name="keywords" content="prism, images, globalCompositeOperation, canvas, demo, web design, slider" />
+		<meta name="author" content="Claudio Calautti for Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normal.css" />
+		<link rel="stylesheet" type="text/css" href="css/demos.css" />
+		<link rel="stylesheet" type="text/css" href="css/components.css" />
+		<!--[if IE]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body class="demo-3">
+		<div class="container">
+			<header class="codrops-header">
+				<h1>GALLERY</h1>
+				<nav class="codrops-demos">
+					
+					<a class="demo demo--current" href="index.html"><span>HOME</span></a>
+					<a class="demo" href="index2.html"><span>ABOUT</span></a>
+					<a class="demo" href="index8.html"><span>CAST</span></a>
+					<a class="demo" href="index4.html"><span>TRAILER</span></a>
+					<a class="demo" href="index5.html"><span>GALLERY</span></a>
+				</nav>
+			</header>
+			<div class="content">
+				<!-- Start Demo -->
+
+				<div class="cache">
+					<!-- masks -->
+					<img src="img/masks/cube-a.svg">
+					<img src="img/masks/cube-b.svg">
+					<img src="img/masks/cube-c.svg">
+					<!-- photos -->
+					<img src="img/buildings.jpg">
+					<img src="img/trippy2.jpg">
+					<img src="img/maxresdefault2.jpg">
+					<img src="img/inception-buildings.jpg">
+				</div>
+
+				<div class="wrapper">
+					<div class="prism-slider prism-slider--left">
+						<ul class="navigation"></ul>
+					</div>
+					<div class="copy copy--left">
+						<article>
+							<h2>LANDSCAPES</h2>
+							<p>
+								An architecture student tasked with
+ designing the labyrinth of the dream landscapes, recruited with the help of Cobb's father-in-law, 
+Professor Stephen Miles. While dream-sharing with Cobb, Ariadne learns his subconscious .
+							</p>
+						</article>
+					</div>
+				</div>
+
+				<!-- End Demo -->
+			</div>
+			<!-- Related demos -->
+			<section class="content content--related">
+				<p>CHANGE SLIDES</p>
+				<nav class="codrops-demos">
+					<a class="current-demo" href="index5.html">The Box office</a>
+					<a href="index6.html">The Dream</a>
+					<a href="index7.html">Landscape</a>
+				</nav>
+			</section>
+		</div><!-- /container -->
+
+		<!-- JS -->
+		<script src="js/utils/rAF.js"></script>
+		<script src="js/utils/easing.js"></script>
+		<script src="js/PrismSlider.js"></script>
+		<script src="js/slideshow3.js"></script>
+	</body>
+</html>

@@ -1,0 +1,479 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+ background-image: url(../img/16260_inception-3.1.jpg);
+  /*url("http://oi64.tinypic.com/5p3qtk.jpg");*/
+  background-position: center center;
+  background-size: cover;
+  width: auto;
+  max-width: 1920px;
+  height: 450px;
+}
+header .container-fluid {
+  max-width: 1920px;
+}
+
+.navbar, .navbar.navbar-default {
+  background-color: rgba(53, 63, 54, 0.95);
+}
+
+.nav.navbar-nav.navbar-right a {
+  color: #337ab7;
+  text-shadow: 4px 4px 5px black;
+  letter-spacing: 2px;
+}
+
+.navbar-header {
+  color: #e2f0e6;
+  text-shadow: 4px 4px 5px black;
+}
+
+#profilePic {
+  display: block;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  padding: 3px;
+  background-color: white;
+  position: relative;
+  top: 310px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 20px black;
+}
+
+#subheader {
+  margin: 0px 30px 0 30px;
+}
+
+#name {
+  color: #e2f0e6;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 3px;
+  font-size: 2.8em;
+  position: absolute;
+  top: 161px;
+  left: 15px;
+  text-shadow: 0px -3px 20px black;
+}
+
+#addbtn {
+  position: absolute;
+  top: 157px; 
+  right: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  #name {
+    position: relative;
+    top: 300px;
+    margin-left: -30px;
+    text-align: center;
+  }
+  #addbtn {
+    position: relative;
+    top: 300px;
+    right: -1px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+body {
+  min-width: 350px;
+  min-height: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: #e2f0e6;
+}
+
+main .container-fluid {
+  max-width: 1920px;
+  overflow: hidden;
+  height: 940px;
+  background-color: #262927;
+  margin: -40px 30px 0 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-shadow: 0px 0px 20px black;
+}
+@media only screen and (max-width: 767px) {
+  main .container-fluid {
+    margin: -40px 10px 0 10px;
+    height: 1200px;
+  }
+}
+
+.nav-pills {
+  display: inline-block;
+  position: relative;
+  top: 150px;
+  left: 15px;
+  background-color: #e2f0e6;
+  width: 100%;
+  border-radius: 2.5px;
+  padding: 15px 0px;
+  box-shadow: 0px 0px 20px black;
+}
+
+.nav-pills li a {
+  height: 40px;
+  width: 90%;
+  margin: 8px auto;
+}
+@media only screen and (max-width: 767px) {
+  .nav-pills {
+    top: 220px;
+    left: 0;
+    width: 100%;
+  }
+  .nav-pills li {
+    display: table-cell;
+    padding: 0px;
+    width: 59px;
+  }
+  .nav-pills li a {
+    height: 40px;
+    text-align: center;
+    font-size: 0.62em;
+    margin: 0;
+    margin-left: 5px;
+    padding: 10px 3px;
+    min-width: 10px;
+  }
+}
+
+.recent {
+  position: relative;
+  top: 190px;
+  left: 15px;
+  color: #a1a1a1;
+  width: 100%;
+  height: 415px;
+  border-radius: 2.5px;
+  padding: 15px 0px;
+  box-shadow: 0px 0px 20px black;
+  overflow: hidden;
+}
+.recent h4 {
+  margin-left: 20px;
+}
+.recent a.more2 {
+  padding-top: 15px;
+  margin-left: 20px;
+}
+.recent li {
+  text-align: justify;
+  list-style-type: none;
+  margin: 0px auto;
+  padding: 10px 0;
+  border-bottom: 0.1px solid;
+  width: 85%;
+}
+@media only screen and (max-width: 767px) {
+  .recent {
+    display: none;
+  }
+}
+
+.tab-content {
+  text-align: left;
+  position: absolute;
+  top: 130px;
+  width: 85%;
+  color: #a1a1a1;
+}
+.tab-content h3 {
+  background-color: #337ab7;
+  padding: 10px;
+  border-radius: 3px;
+  margin: 18px auto;
+  color: #474747;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#crew {
+  display: inline-block;
+  margin: 0 0px 0 25px;
+}
+#crew .thumbnail {
+  margin: 5px 0px;
+  padding: 2px 2px;
+  text-align: center;
+  max-width: 90%;
+  max-height: auto;
+}
+#crew .thumbnail .caption {
+  height: 40px;
+}
+#crew .thumbnail img {
+  max-height: auto;
+  max-width: 100%;
+}
+#crew .thumbnail p {
+  font-size: 1.0em;
+}
+
+@media only screen and (max-width: 767px) {
+  .tab-content {
+    top: 220px;
+    margin-left: 0px;
+    width: 95%;
+  }
+  .tab-content h3 {
+    width: 95%;
+    margin-left: 0px;
+  }
+  #crew {
+    margin-left: 10px;
+  }
+  #crew .thumbnail {
+    text-align: center;
+    margin: 5px -10px;
+    max-width: 100%;
+  }
+  #crew .thumbnail .caption {
+    height: 25px;
+  }
+  #crew .thumbnail p {
+    font-size: 0.5em;
+  }
+  #crew h3 {
+    margin-left: -10.5px;
+    width: 97%;
+  }
+}
+
+#about, #adventures, #pictures, #friends, #contact {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 20px;
+}
+@media only screen and (max-width: 767px) {
+  #about, #adventures, #pictures, #friends, #contact {
+    left: 0;
+  }
+}
+
+#about span {
+  font-size: 1.3em;
+  letter-spacing: 1px;
+}
+#about p {
+  font-size: 1.2em;
+  line-height: 30px;
+  width: 85%;
+  border-bottom: 0.5px solid;
+  padding-bottom: 10px;
+  align: justify;
+  -webkit-box-shadow: 0px 10px 10px -10px rgba(0,0,0,0.70);
+  -moz-box-shadow: 0px 10px 10px -10px rgba(0,0,0,0.70);
+  box-shadow: 0px 10px 10px -10px rgba(0,0,0,0.70);
+}
+@media only screen and (max-width: 767px) {
+  #about p {
+    font-size: 1em;
+    padding-bottom: 5px;
+  }
+  #about span {
+    font-size: 1.1em;
+  }
+}
+
+#adventures p {
+  border-bottom: 0.5px solid ;
+  padding-bottom: 15px;
+  align: justify;
+  -webkit-box-shadow: 0px 10px 10px -10px rgba(0,0,0,0.70);
+  -moz-box-shadow: 0px 10px 10px -10px rgba(0,0,0,0.70);
+  box-shadow: 0px 10px 10px -10px rgba(0,0,0,0.70);
+}
+
+@media only screen and (min-width: 1080px) {
+  #adventures p {
+    font-size: 1.15em;
+    padding-bottom: 25px;
+  }
+  #adventures h4 {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #adventures p {
+  font-size: 0.73em;
+    padding-bottom: 3px;
+  }
+  #adventures h4 {
+    font-size: 0.9em;
+  }
+}
+
+#pictures img {
+  height: 26%;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+}
+@media only screen and (min-width: 1080px) {
+  #pictures img {
+    margin-right: 25px;
+    margin-bottom: 25px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #pictures img {
+    width: 35%;
+    margin-right: 45px;
+  }
+}
+@media only screen and (max-width: 560px) {
+  #pictures img {
+    width: 45%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+#contact .card {
+  margin-top: 40px;
+  max-width: 600px;
+  position: relative;
+  width: 95%;
+}
+#contact .header {
+  margin-top: -30px;
+  height: 90px;
+  background-color: rgba(53, 63, 54, 1);
+  color: #a1a1a1;
+}
+#contact .footer a {
+  color: rgba(53, 63, 54, 0.9);
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  #onlineFriends {
+    position: relative;
+    margin: 0 10px;
+    top: 800px;
+    bottom: 0px;
+    text-align: center;
+    max-width: 90%;
+  }
+  #onlineFriends li {
+    font-size: 0.6em;
+    display: inline;
+    padding: 0 0px;
+  }
+
+  #onlineFriends li .status {
+    display: none;
+  }
+  #onlineFriends li button {
+    display: inline-block;
+    width: 40%;
+  }
+  #onlineFriends li button img {
+    width: 25px;
+  }
+  #onlineFriends li button .onlineFriendsNames {
+    font-size: 0.8em;
+    padding-left: 10px;
+  }
+  #onlineFriends h3 {
+    font-size: 0.95m;
+  }
+}
+
+#sunny-go-logo {
+  position: absolute;
+  margin-top: 40px;
+  right: 50px;
+}
+#sunny-go-logo:hover {
+  box-shadow: 0px 0px 20px black;
+  border-radius: 40px;
+}
+p.visit {
+  position: absolute;
+  margin-top: 180px;
+  right: 0;
+  margin-right: 90px;
+}
+@media only screen and (max-width: 788px) {
+  #sunny-go-logo {
+    display: none;
+  }
+  p.visit {
+    display: none;
+  }
+}
+
+footer {
+  position: relative;
+  backgrounnd-color: rgba(53, 63, 54, 1);
+  color: #a1a1a1;
+  bottom: 0;
+  color: #474747;
+}
+
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+
+#share-buttons a {
+  text-decoration: none;
+}
+
+
+.thumbnail {
+  max-width: 40%;
+}
+
+.italic { font-style: italic; }
+.small { font-size: 0.8em; }
+
+/** LIGHTBOX MARKUP **/
+
+.lightbox {
+  /** Default lightbox to hidden */
+  display: none;
+
+  /** Position and style */
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+  /** Pad the lightbox image */
+  max-width: 90%;
+  max-height: 80%;
+  margin-top: 2%;
+}
+
+.lightbox:target {
+  /** Remove default browser outline */
+  outline: none;
+
+  /** Unhide lightbox **/
+  display: block;
+}
